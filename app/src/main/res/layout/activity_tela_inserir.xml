@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.norb7492.exerciciofaculdade.TelaInserir">
+
+
+    <TextView
+        android:id="@+id/txtLembrete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="39dp"
+        android:text="Lembrete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editLembrete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_alignBaseline="@+id/txtLembrete"
+        android:layout_alignBottom="@+id/txtLembrete"
+        android:layout_toEndOf="@+id/txtLembrete" />
+
+    <Button
+        android:id="@+id/btnInserir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtLembrete"
+        android:layout_below="@+id/editLembrete"
+        android:layout_marginTop="27dp"
+        android:text="Inserir" />
+
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fechar"
+        android:layout_alignBaseline="@+id/btnInserir"
+        android:layout_alignBottom="@+id/btnInserir"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
